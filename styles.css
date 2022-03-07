@@ -1,8 +1,5 @@
 body {
     background-color: black;
-}
-
-text {
     color: white;
 }
 
@@ -26,6 +23,6 @@ ol {
     list-style: lower-alpha;
 }
 
-ul{
+ul {
     list-style: square;
 }
