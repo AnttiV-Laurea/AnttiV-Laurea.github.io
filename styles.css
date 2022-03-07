@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+}
+
+text {
+    color: white;
+}
+
+h1 {
+    font-size: 20;
+}
+
+p {
+    font-size: 12;
+    color: green;
+}
+
+div {
+    border: 2;
+    border-style: dotted;
+    width: 100;
+    height: 100;
+}
+
+ol {
+    list-style: lower-alpha;
+}
+
+ul{
+    list-style: square;
+}
