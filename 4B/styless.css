@@ -37,3 +37,27 @@ p {
   padding: 10px;
   border-radius: 15px;
 }
+
+div.gallery {
+    margin: 5px;
+    border: 5px dotted darkslategrey;
+    float: left;
+    width: 250px;
+    height: 150px;
+    margin-bottom: auto;
+}
+
+div.gallery:hover {
+    border: 5px solid rgb(30, 105, 105);
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
