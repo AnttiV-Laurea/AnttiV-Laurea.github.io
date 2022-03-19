@@ -1,0 +1,132 @@
+body {
+    background-color: rgb(224, 224, 224);
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgb(33, 33, 33);
+    position: sticky;
+    top: 0;
+    text-align: left;
+    width: 100%;
+    font-size: 0;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 11px;
+}
+
+nav a:hover {
+    background-color: rgb(133, 133, 133);
+    color: rgb(0, 0, 0);
+}
+
+nav a.active {
+    background-color: rgb(76, 126, 128);
+    color: rgb(255, 255, 255);
+}
+
+nav a.alignRight {
+    float: right;
+}
+
+nav.leftside {
+    display: block;
+    position: static;
+    margin-top: 70px;
+    /*position: sticky;
+    top: 115px;*/
+    max-width: max-content;
+    float: left;
+    background-color: rgb(20, 20, 20);
+    margin-left: calc(20% - 100px);
+}
+
+nav.leftside a {
+    display: block;
+}
+
+section {
+    background-color: rgb(237, 237, 237);
+    min-width: fit-content;
+    overflow: hidden;
+    min-height: 100vh;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+section p {
+    padding: 5px 10px;
+}
+
+header {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+div.galleryGrid {
+    text-align: center;
+}
+
+div.gallery {
+    border: 5px dotted rgb(16, 12, 8);
+    text-align: center;
+    padding: 2px;
+    margin: 5px;
+    display: inline-block;
+}
+
+div.gallery img, div.gallery p {
+    width: 250px;
+    max-height: 250px;
+}
+
+div.gallery:hover {
+    border: 5px solid rgb(25, 25, 25);
+}
+
+footer {
+    background-color: rgb(33, 33, 33);
+    text-align: center;
+    height: 45px;
+    width: 100%;
+    font-size: 0;
+}
+
+footer a {
+    color: rgb(255, 255, 255);
+    display: block;
+    float: right;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 11px;
+}
+
+footer a:hover {
+    background-color: rgb(133, 133, 133);
+    color: rgb(0, 0, 0);
+}
+
+footer p {
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 11px;
+    margin: 0;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}

@@ -9,7 +9,7 @@
     <!-- CSS only -->
     <link rel="stylesheet" href="styles.css">
     <!-- Page title -->
-    <title></title>
+    <title>Lamentum</title>
   </head>
   <body class="d-flex flex-column min-vh-100 ">
     <!-- Navigation bar -->
@@ -17,8 +17,8 @@
       <div class="container-fluid">
         <!-- Brand name and logo -->
         <a class="navbar-brand" href="#">
-          <img src="https://trirama.com/wp-content/uploads/2016/10/orionthemes-placeholder-image.png" alt="" class="rounded-pill">
-          Name Here
+          <img src="https://obscuretalescom.files.wordpress.com/2021/05/gamelogo.png?w=1024" alt="" class="rounded-pill">
+          Lamentum
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTop" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon" id="menuBttn"></span>
@@ -37,7 +37,7 @@
               <a class="nav-link" disabled>DLC</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="gallery.html#">Gallery</a>
+              <a class="nav-link" disabled>Gallery</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" disabled>Blog</a>
@@ -55,19 +55,37 @@
       </div>
     </nav>
     <!-- Content -->
-    <div class="row justify-content-center">
-      <div class="col-sm-1"></div>
-      <section id="content" class="col-sm-10 section">
-        <div class="row w-100"></div>
-      </section>
-      <div class="col-sm-1">
-        <div id="scrollTop">
-        <!-- Scroll to top -->
-          <a href="#">
-          ▲
-          </a>
+    <div id="content" class="row justify-content-center">
+      <section class="col-sm-10 section">
+        <video id="topVideo" controls>
+          <source src="https://cdn.akamai.steamstatic.com/steam/apps/256837681/movie480_vp9.webm?t=1623086276">
+          Your browser does not support the video tag.
+        </video>
+        <div class="row">
+          <div class="card col-6 text-white bg-dark">
+            <img src="https://cdn.akamai.steamstatic.com/steam/apps/1033950/header.jpg?t=1647237499" alt="">
+            <div class="card-body">
+              <div class="row">
+                <p class="w-50">All reviews: </p>
+                <p class="w-50"><a href="https://store.steampowered.com/app/1033950/Lamentum/#app_reviews_hash">Very Positive</a> (255)</p>
+              </div>
+              <div class="row">
+                <p class="w-50">Release date: </p>
+                <p class="w-50">27 Aug, 2021</p>
+              </div>
+              <div class="row">
+                <p class="w-50">Developer: </p>
+                <p class="w-50"><a href="https://obscuretales.com/">Obscure Tales</a></p>
+              </div>
+              <div class="row">
+                <p class="w-50">Publisher: </p>
+                <p class="w-50"><a href="https://www.neondoctrine.com/">Neon Doctrine</a></p>
+              </div>
+            </div>
+          </div>
+          <p class="col-5 align-self-center">Lamentum is a pixel art survival horror game, set in New England in the mid-nineteenth century.<iframe src="https://store.steampowered.com/widget/1033950/?t=%20" frameborder="0" width="100%" height="190"></iframe></p>
         </div>
-      </div>
+      </section>
     </div>
     <!-- Footer -->
     <footer class="navbar navbar-expand-sm bg-custom navbar-dark">
@@ -79,9 +97,7 @@
         <!-- Footer middle-->
         <ul class="navbar-nav nav-pills nav-justified col justify-content-center">
           <li class="nav-item">
-            <span class="navbar-text">
-              © 2022 Antti Vesanto
-            </span>
+            <span class="navbar-text">This is the footer</span>
           </li>
         </ul>
         <!-- Footer right-->
