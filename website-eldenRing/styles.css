@@ -1,0 +1,113 @@
+body {
+    background-color: rgb(224, 224, 224);
+}
+
+.row {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+#content {
+    padding: 0;
+    border: 0;
+    min-height: calc(100vh - 98px);
+    max-width: 1920px;
+}
+
+.pic {
+    width: 350px;
+    max-height: 450px;
+    padding: 0;
+    margin: 5px;
+}
+
+footer, nav {
+    height: 49px;
+    font-size: 0;
+}
+
+nav .navbar-brand img {
+    width: 45px;
+    height: 45px;
+}
+
+.navbar, .navbar-brand {
+    padding: 1px 0 1px 0;
+}
+
+.nav-pills a, .nav-link a {
+    color: rgb(133, 133, 133);
+    padding: 11px 5px 11px 5px;
+    align-self: center;
+}
+
+.nav-link {
+    padding: 11px;
+}
+
+.navbar-text {
+    display: block;
+    padding: 11px 0 11px 0;
+    
+}
+
+nav.bg-custom, footer.bg-custom {
+    background-color: rgb(33, 33, 33);
+}
+
+nav.navbar-dark, footer.navbar-dark {
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: 15px;
+}
+
+footer .nav-link img {
+    width: 25px;
+    height: 25px;
+}
+
+footer .dropup li {
+    margin: 5px;
+}
+
+footer .dropdown-menu {
+    padding: 0;
+    margin: 0;
+    width: 250px;
+}
+
+#scrollTop a {
+    border: rgb(224, 224, 224) 1 dotted;
+    background-color: rgb(33, 33, 33);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    text-align: center;
+    border-radius: 2.5px;
+    max-height: 25px;
+    height :100%;
+    max-width: 25px;
+    width: 100vh;
+    right: 10px;
+    bottom: 59px;
+}
+
+#scrollTop a:hover {
+    background-color: rgb(115, 115, 115);
+    color: rgb(255, 175, 175);
+}
+
+section {
+    background-color: rgb(237, 237, 237);
+    width: 100%;
+}
+
+#hImg {
+    border: rgb(33, 33, 33) 1px dotted;
+}
+
+#hImg img {
+    height: 250px;
+    width: 100%;
+}
