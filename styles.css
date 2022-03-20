@@ -167,7 +167,7 @@ footer .dropdown-menu {
 }
 
 #scrollTop a {
-    border: rgb(224, 224, 224) 1 dotted;
+    border: 1px dotted rgb(224, 224, 224);
     background-color: rgb(33, 33, 33);
     color: rgb(255, 255, 255);
     text-decoration: none;
