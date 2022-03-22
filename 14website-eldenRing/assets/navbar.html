@@ -1,8 +1,12 @@
-<!doctype html>
+<script>
+    var currentURL = $(location).attr('href').match(/[^\/]+$/)[0].split(".")[0];
+    $("#"+currentURL).addClass("active");
+    
+</script>
 <nav class="navbar navbar-expand-sm bg-custom navbar-dark sticky-top">
     <div class="container-fluid">
     <!-- Brand name and logo -->
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="index.html#">
         <img src="icon/Elden-Ring-icon-2.png" alt="" class="rounded-pill">
         Elden Ring
     </a>
@@ -14,23 +18,23 @@
     <div class="collapse navbar-collapse" id="navbarTop">
         <ul class="nav nav-pills w-100">
         <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a id="index" class="nav-link" href="index.html#">Home</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="classes.html#">Classes</a>
+            <a id="classes" class="nav-link" href="classes.html#">Classes</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="editions.html#">Editions</a>
+            <a id="editions" class="nav-link" href="editions.html#">Editions</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="gallery.html#">Gallery</a>
+            <a id="gallery" class="nav-link" href="gallery.html#">Gallery</a>
         </li>
         <li class="nav-item me-auto">
-            <a class="nav-link" href="guides.html#">Guides</a>
+            <a id="guides" class="nav-link" href="guides.html#">Guides</a>
         </li>
         <!-- Navbar items/links align right -->
         <li class="nav-item">
-            <a class="nav-link" href="">About</a>
+            <a id="about" class="nav-link" href="">About</a>
         </li>
         </ul>
     </div>
