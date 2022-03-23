@@ -1,5 +1,5 @@
 body {
-    background-image: url("bg/Elden-Ring-Wallpaper-9.png");
+    background-image: url(../bg/Elden-Ring-Wallpaper-9.png);
     background-color: rgb(224, 224, 224);
     background-repeat: no-repeat;
     background-position: center;
@@ -188,7 +188,7 @@ footer .dropdown-menu {
 }
 
 section {
-    background-image: url("bg/Elden-Ring-Wallpaper-7.png");
+    background-image: url(../bg/Elden-Ring-Wallpaper-7.png);
     background-color: rgb(237, 237, 237);
     background-repeat: no-repeat;
     background-position: center;
