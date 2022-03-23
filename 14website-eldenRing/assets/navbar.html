@@ -1,12 +1,7 @@
-<!--<script>
-    var currentURL = $(location).attr('href').match(/[^\/]+$/)[0].split(".")[0];
-    $("#"+currentURL).addClass("active");
-    $("#content-placeholder").load("pages/"+currentURL+".html");
-</script>-->
 <nav class="navbar navbar-expand-sm bg-custom navbar-dark sticky-top">
     <div class="container-fluid">
     <!-- Brand name and logo -->
-    <a class="navbar-brand" href="pages/index.html#">
+    <a class="navbar-brand" href="index.html?index">
         <img src="icon/Elden-Ring-icon-2.png" alt="" class="rounded-pill">
         Elden Ring
     </a>
@@ -18,23 +13,23 @@
     <div class="collapse navbar-collapse" id="navbarTop">
         <ul class="nav nav-pills w-100">
         <li class="nav-item">
-            <a id="index" class="nav-link" href="javascript:location.reload(); $(this).addClass('active');">Home</a>
+            <a id="index" class="nav-link active" href="index.html?index">Home</a>
         </li>
         <li class="nav-item">
-            <a id="classes" class="nav-link" href="pages/classes.html#">Classes</a>
+            <a id="classes" class="nav-link" href="index.html?classes">Classes</a>
         </li>
         <li class="nav-item">
-            <a id="editions" class="nav-link" href="pages/editions.html#=index">Editions</a>
+            <a id="editions" class="nav-link" href="index.html?editions">Editions</a>
         </li>
         <li class="nav-item">
-            <a id="gallery" class="nav-link" href="pages/gallery.html#">Gallery</a>
+            <a id="gallery" class="nav-link" href="index.html?gallery">Gallery</a>
         </li>
         <li class="nav-item me-auto">
-            <a id="guides" class="nav-link" href="pages/guides.html#">Guides</a>
+            <a id="guides" class="nav-link" href="index.html?guides">Guides</a>
         </li>
         <!-- Navbar items/links align right -->
         <li class="nav-item">
-            <a id="about" class="nav-link" href="">About</a>
+            <a id="about" class="nav-link" href="index.html?about">About</a>
         </li>
         </ul>
     </div>
